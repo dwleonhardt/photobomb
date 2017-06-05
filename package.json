@@ -1,0 +1,24 @@
+{
+  "name": "photobomb",
+  "version": "1.0.0",
+  "description": "Demonstration for KNEX queries/migrations/associations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghost-/photobomb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghost-/photobomb/issues"
+  },
+  "homepage": "https://github.com/ghost-/photobomb#readme",
+  "dependencies": {
+    "knex": "^0.13.0",
+    "pg": "^6.2.3"
+  }
+}
