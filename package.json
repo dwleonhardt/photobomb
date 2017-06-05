@@ -2,9 +2,10 @@
   "name": "photobomb",
   "version": "1.0.0",
   "description": "Demonstration for KNEX queries/migrations/associations",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/ghost-/photobomb#readme",
   "dependencies": {
+    "express": "^4.15.3",
     "knex": "^0.13.0",
     "pg": "^6.2.3"
-  }
+  },
+  "devDependencies": {}
 }
